@@ -1,0 +1,6 @@
+.myHomeContainer {
+    height: calc(100vh - 105px);
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%;
+}

@@ -1,0 +1,101 @@
+.sidenav {
+    margin-top: 52px;
+    margin-bottom: 53px;
+    /* height: 100%; */
+    height: calc(100vh - 105px);
+    width: 300px;
+    margin-left: -300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.navHeader {
+    padding: 16px;
+    background-color: #0f2d41;
+    border-top: 2px solid #879cd4;
+    border-bottom: 2px solid #879cd4;
+    /* margin-bottom: 8px; */
+}
+
+.navHeader img {
+    border-radius: 50%;
+}
+.navHeader .navHeaderTitle {
+    margin-top: 16px;
+    color: white;
+    font-size: 22px;
+    word-wrap: break-word;
+}
+.navHeader .navHeaderSubTitle {
+    margin-top: 0px;
+    color: white;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+.navContent {
+    height: calc(100vh - 289px);
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: white;
+}
+.navContent div {
+    padding: 8px 16px 8px 16px;
+    display: inline-block;
+    width: 100%;
+    color: #111;
+}
+.navContent div a {
+    padding: 0px;
+    font-size: 22px;
+    color: inherit;
+    display: inline-block;
+}
+.sidenav a:hover {
+    color: inherit !important;
+}
+.navContent div:hover {
+    background-color: #0f2d41;
+    cursor: pointer;
+    color: white;
+}
+.glyphicon {
+    font-size: 22px;
+    margin-right: 33px;
+    color: inherit;
+    top: 0px !important;
+}
+
+.navbar-inverse {
+    background-color: #0f2d41;
+    border-color: #0f2d41;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

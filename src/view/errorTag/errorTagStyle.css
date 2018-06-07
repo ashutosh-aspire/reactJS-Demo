@@ -1,0 +1,12 @@
+.errorTag {
+    text-align: left;
+    background-color: #FFBABA;
+    color: #D8000C;
+    padding: 3px 5px 3px 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.errorTagBody {
+    font-size: 10px;
+    word-break: break-all;
+}

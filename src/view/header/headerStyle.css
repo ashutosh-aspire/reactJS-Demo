@@ -1,0 +1,23 @@
+.hamburgerBt {
+    font-size: 30px;
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    line-height: 20px;
+    color: white;
+}
+.hamburgerBtCon {
+    float: right;
+    margin: 0px;
+}
+.navbar-header {
+    float: left;
+}
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
